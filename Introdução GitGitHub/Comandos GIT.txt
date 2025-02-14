@@ -1,0 +1,45 @@
+mkdir cria repositorios
+mkdir ''nome do repositorio''
+
+cd entrar no repositorio
+
+git init inicializa repositorio git
+
+git status mostra o status da area de trabalho
+
+touch cria um arquivo vazio 
+
+clear limpa
+
+echo adiciona um arquivo
+
+criar um Commit git commit -m "nome"
+
+git add para para adicionar na area de preparação
+
+(Criar um repositorio ''mkdir'' inicializar repositorio git ''git init'' criar um arquivo vazio ''touch(nome)''
+adicionar na area de preparação ''git add(nomedoarquivo)'' depois criar/"aprovar" o commit ''git commit -m"(nome)"
+
+git checkout -b teste (criar a branch teste) passando da branch que estava para essa nova criada.
+
+git branch -v (para ver as branch)
+
+git merge "nome da branch" (para mesclar as branch)
+
+git branch -d "nome da branch" (para excluir a branch)
+
+git fetch origin main (para ver alterações feitas pelo git)
+
+git diff main origin/main (para ver se há alterações divergentes)
+
+git merge origin/main (para atualizar as alterações feitas pelo git)
+
+git stash (para arquivar alguma motificação feita como um arquivo excluido)
+
+git stash list (para ver as motificações arquivadas)
+
+git checkout -b "nome" para entrar em outra branch teste
+
+git checkout "nome da branch que deseja entrar" (para entrar na branch que deseja)
+
+git push para enviar atualizaões
