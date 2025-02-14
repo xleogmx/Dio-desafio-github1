@@ -42,4 +42,4 @@ git checkout -b "nome" para entrar em outra branch teste
 
 git checkout "nome da branch que deseja entrar" (para entrar na branch que deseja)
 
-git push para enviar atualizaões
+git push origin main (para enviar atualizaões)
